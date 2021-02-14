@@ -1,0 +1,129 @@
+[
+  {
+    "id": "e7609f04-71ca-4746-9dd4-b351152ff347",
+    "thumbnail": "https://master.demo.geonode.org/static/thumbs/layer-7ef04a1a-4811-11ea-9a96-0242ac120007-thumb.b3616998f845.png",
+    "name": "Nepal DEM",
+    "description": "This present the Srtm 30 m resolution Elevation data of nepal",
+    "geographic extent": {
+      "type": "FeatureCollection",
+      "name": "nepal",
+      "crs": {
+        "type": "name",
+        "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "Name": "Poly1",
+            "tessellate": 1,
+            "extrude": 0,
+            "visibility": -1
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [88.197685473107015, 27.95302199432378, 0.0],
+                [86.947736369732098, 28.104295105816622, 0.0],
+                [84.760996195584042, 28.99760921610557, 0.0],
+                [82.524939385483307, 30.29240540092621, 0.0],
+                [80.857049790064792, 30.97812769223049, 0.0],
+                [79.593355056517311, 28.68291083768765, 0.0],
+                [81.824896923374226, 27.389763544572489, 0.0],
+                [81.993435423885018, 27.412232373020331, 0.0],
+                [85.268172676906744, 26.610119658985461, 0.0],
+                [87.346787327990398, 26.108149367253429, 0.0],
+                [88.321575018022813, 26.251497052519468, 0.0],
+                [88.401054604547994, 27.22158580662682, 0.0],
+                [88.197685473107015, 27.95302199432378, 0.0]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "geographicReferenceSystem": 4326,
+    "sourceDateRange": {
+      "start": "2012-04-23T18:25:43.511Z",
+      "end": "2013-04-23T18:25:43.511Z"
+    },
+    "lastUpdated": "2020-02-11T14:45:43.511Z",
+    "type": "raster",
+    "source": "SRTM",
+    "category": "discrete",
+    "connectionMetadata": {
+      "protocol": "WMS",
+      "capabilitiesUrl": "https://master.demo.geonode.org/capabilities/layer/2154/"
+    },
+    "subType": "DEM",
+    "version": 1,
+    "status": "up-to-date"
+  },
+  {
+    "id": "n7609f04-71ca-4746-9dd4-b351152ff347",
+    "thumbnail": "https://master.demo.geonode.org/static/thumbs/layer-6d15a474-40e7-11ea-ae8f-0242ac120007-thumb.8f757fddf024.png",
+    "name": "ern-based Soil Exchangeable base concentration",
+    "description": "Map of soil cation concentration as modelled using direct and plant-derived soil data together as input data:\n-KrigeSoill_fernRcropNEW.tif - covering the whole Amazonian sensu latissimo. One single interpolation without wetlands claasification.\nMethods in brief:\nWe defined fern species optima using compiled data from 1,353 quantitative fern and lycophyte inventory plots across Amazonia that also provided locally measured soil cation concentration. We obtained and cleaned",
+    "geographic extent": {
+      "type": "FeatureCollection",
+      "name": "south_am.kml",
+      "crs": {
+        "type": "name",
+        "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "Name": "Untitled Polygon",
+            "tessellate": 1,
+            "extrude": 0,
+            "visibility": -1
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [-45.406920343139902, -0.272547115818049, 0.0],
+                [-45.657030597943049, -0.216284793997471, 0.0],
+                [-59.52708882663503, 5.714052945364225, 0.0],
+                [-59.685388727029917, 5.666214711344046, 0.0],
+                [-59.843664093016947, 5.618657416148355, 0.0],
+                [-59.923906319279119, 5.618105018411629, 0.0],
+                [-69.936355928888744, 2.194405502922533, 0.0],
+                [-73.533393889288988, -6.003373699884604, 0.0],
+                [-73.576544664586493, -6.04117126170298, 0.0],
+                [-74.098315944032052, -12.488788310015449, 0.0],
+                [-61.807107057299888, -16.083368288121662, 0.0],
+                [-61.688014379269191, -16.156678067079, 0.0],
+                [-61.529351727302142, -16.229155073447711, 0.0],
+                [-61.042666907955578, -19.848683422886431, 0.0],
+                [-53.295170020263292, -19.005183744625722, 0.0],
+                [-53.219654778469348, -18.925699525593409, 0.0],
+                [-46.62609426041972, -12.84364182441964, 0.0],
+                [-44.470132595791711, -6.287310453279575, 0.0],
+                [-45.406920343139902, -0.272547115818049, 0.0]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "geographicReferenceSystem": 4326,
+    "sourceDateRange": {
+      "start": "2012-04-23T18:25:43.511Z",
+      "end": "2013-04-23T18:25:43.511Z"
+    },
+    "lastUpdated": "2020-02-11T14:56:43.511Z",
+    "type": "raster",
+    "source": "gabizuquim",
+    "category": "discrete",
+    "connectionMetadata": {
+      "protocol": "WMS",
+      "capabilitiesUrl": "https://master.demo.geonode.org/capabilities/layer/2060/"
+    },
+    "version": 3,
+    "status": "up-to-date"
+  }
+]
